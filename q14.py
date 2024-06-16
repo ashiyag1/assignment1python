@@ -2,7 +2,7 @@
 # then prints all the lines.
 multilineinput = []
 while True:
-    lineinput= input("Kindly enter a line and if you want to exit just press enter): ")
+    lineinput= input("Kindly enter a line and if you want to exit just press enter: ")
     if not lineinput:
         break
     multilineinput.append(lineinput)
